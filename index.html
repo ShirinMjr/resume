@@ -1,45 +1,86 @@
 <!DOCTYPE html>
-<head>
-  <script type="module" src="script.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- <link rel="stylesheet" href="style.css" /> -->
-</head>
-<body class="bg-gray-100">
-    <nav class="p-5 bg-gray-500 shadow md:flex md:items-center md:justify-between">
-      <span class="nav-item-profile text-2xl font-[popines]">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet" />
+    <title>Shirin Mohajer</title>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">
           <img
-            class="profile-img h-10 inline"
+            class="profile-img h-10 inline rounded-md"
             src="https://media.licdn.com/dms/image/C4E03AQGx1cE6JuS92A/profile-displayphoto-shrink_400_400/0/1550503207113?e=1709164800&v=beta&t=y3B5Q6HrLStAi9izHfa4URy0_KJp8JRw2FhOldJUxkk"
             alt="shirin profile pic" />
-            Shirin Mohajer
-      </span>
-            <ul class="md:flex md:items-center z-[-1] md:z-auto md:static md:absolute w-full left-0 md:w-auto">
-            <li class="mx-4 my-6 md:my-0">
-              <a href="./" class="text-xl hover:text-gray-100 duration-500 home-page">Home</a>
-            </li>
-            <li class="mx-4 my-6 md:my-0">
-              <a href="./portfolio.html" class="text-xl hover:text-gray-100 duration-500 portfolio-page">Portfolio</a>
-            </li>
-            <li class="mx-4 my-6 md:my-0">
-              <a href="#" class="text-xl hover:text-gray-100 duration-500 portfolio-page">Resume</a>
-            </li>
-            <li class="mx-4 my-6 md:my-0">
-              <a href="#" class="text-xl hover:text-gray-100 duration-500 contact-page">Contact</a>
-            </li>
-          </ul>
-     
-  
+
+          Shirin Mohajer
+        </h1>
+        <div class="flex space-x-4">
+          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="portfolio.html" class="hover:text-gray-300">Portfolio</a>
+          <a href="contact.html" class="hover:text-gray-300">Contact</a>
+        </div>
+      </div>
     </nav>
+    <div class="container mx-auto p-8">
+      <h1 class="text-4xl font-bold mb-4">Shirin Mohajer</h1>
+      <p class="mb-8">Welcome to my personal website showing my resume and work experience.</p>
 
-  <main>
-    <!-- <button class="bg-red-500 text-white font-[poppins] duration-500 px-5">Clients Login</button> -->
-
-    <div>
-      <h1 class="web-description">
-        Welcome to my personal website showing my resume and work experience
-      </h1>
+      <div class="bg-gray-500 text-white p-2 rounded-md text-xl">
+        <div class="text-pink-300 h-10"><h2>About Me</h2></div>
+        Transitioning to software engineering with 5+ years of experience in enterprise grade
+        applications and platforms as SDET (Software Development Engineer in Test). Educational
+        background in Electrical Engineering and Cybersecurity and recently graduated from Software
+        Engineering Immersive boot camp. Strong communication, technical and interpersonal skills
+        with attention to details and passion for driving innovation and delivering exceptional
+        results.
+      </div>
     </div>
 
+    <div>
+      <span class="inline flex p-2">
+        <img class="rounded-md h-10" src="./assets/joblogo/storyblocks_logo.jpeg" />
+        SOFTWARE DEVELOPMENT ENGINEER IN TEST, StoryBlocks, Arlington, VA | 11/2021 – 12/2022
+      </span>
+
+      <ul>
+        <li>
+          Joined as the first SDET and created and implemented new test automation (Cypress) while
+          maintained project’s legacy test framework (Selenium).
+        </li>
+        <li>
+          Refactored and migrated 20% of the legacy tests from Selenium to the new framework
+          Cypress.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<!-- 
+
+<div>
+        <img src="./assets/joblogo/storyblocks_logo.jpeg" />
+        <h2>SOFTWARE DEVELOPMENT ENGINEER IN TEST, StoryBlocks, Arlington, VA | 11/2021 – 12/2022</h2>
+        <p>
+          <ul>
+            <li>Joined as the first SDET and created and implemented new test automation (Cypress) while
+              maintained project’s legacy test framework (Selenium). </li>
+          <li>
+            Refactored and migrated 20% of the
+            legacy tests from Selenium to the new framework Cypress.
+          </li>
+            </ul>
+            </p>
+            </div>
+    </div> -->
+
+<!-- 
 
     <div class="prose">
       <div class="rounded-md bg-white shadow-xs">
@@ -110,4 +151,4 @@
       https://github.com/shirinmjr/weather-widget-javascript
     </div>
 
-</body>
+</body> -->
