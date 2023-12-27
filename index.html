@@ -1,73 +1,113 @@
 <!DOCTYPE html>
 <head>
-  <style></style>
   <script type="module" src="script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
 </head>
-<body>
-  <header class="site-header">
-    <!-- We're adding the header before header ends-->
-    <img src="https://avatars.githubusercontent.com/u/24372578?v=4" />
-    <div class="site-title">Shirin Mohajer</div>
-    <div class="site-description">
-      This is my personal website showing my resume and work experience
+<body class="bg-gray-100">
+    <nav class="p-5 bg-gray-500 shadow md:flex md:items-center md:justify-between">
+      <span class="nav-item-profile text-2xl font-[popines]">
+          <img
+            class="profile-img h-10 inline"
+            src="https://media.licdn.com/dms/image/C4E03AQGx1cE6JuS92A/profile-displayphoto-shrink_400_400/0/1550503207113?e=1709164800&v=beta&t=y3B5Q6HrLStAi9izHfa4URy0_KJp8JRw2FhOldJUxkk"
+            alt="shirin profile pic" />
+            Shirin Mohajer
+      </span>
+            <ul class="md:flex md:items-center z-[-1] md:z-auto md:static md:absolute w-full left-0 md:w-auto">
+            <li class="mx-4 my-6 md:my-0">
+              <a href="./" class="text-xl hover:text-gray-100 duration-500 home-page">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a href="./portfolio.html" class="text-xl hover:text-gray-100 duration-500 portfolio-page">Portfolio</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a href="#" class="text-xl hover:text-gray-100 duration-500 portfolio-page">Resume</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a href="#" class="text-xl hover:text-gray-100 duration-500 contact-page">Contact</a>
+            </li>
+          </ul>
+     
+  
+    </nav>
+
+  <main>
+    <!-- <button class="bg-red-500 text-white font-[poppins] duration-500 px-5">Clients Login</button> -->
+
+    <div>
+      <h1 class="web-description">
+        Welcome to my personal website showing my resume and work experience
+      </h1>
     </div>
-  </header>
-  <main class="maincontent">
-    <p>
-      Transitioning to software engineering with 5+ years of experience in enterprise grade
-      applications and platforms as SDET (Software Development Engineer in Test). Educational
-      background in Electrical Engineering and Cybersecurity and recently graduated from Software
-      Engineering Immersive boot camp. Strong communication, technical and interpersonal skills with
-      attention to details and passion for driving innovation and delivering exceptional results.
-    </p>
-    <img src="./assets/joblogo/generalassembly_logo.jpeg" />
-    <h2>SOFTWARE DEVELOPMENT ENGINEER IN TEST, StoryBlocks, Arlington, VA | 11/2021 – 12/2022</h2>
-    <p>
-      • Joined as the first SDET and created and implemented new test automation (Cypress) while
-      maintained project’s legacy test framework (Selenium). • Refactored and migrated 20% of the
-      legacy tests from Selenium to the new framework Cypress. • Eliminated 100% of flaky tests by
-      implementing a test reliability process that increased test standards, reduced failures, and
-      expedited the deployment process. • Created GitHub actions to tag, monitor, and report
-      failing/flaky tests. • Worked independently to develop data/scenario strategies that minimized
-      testing time. • Actively participated in source code management discussions, providing
-      valuable input. • Participated in daily Scrum meetings, sprint planning, backlog grooming, and
-      code reviews. • Advocated for software quality best practices by giving talks and creating
-      collaborative groups. • Utilized various tools, including Slack bot, Honeycomb, Jira, and
-      Notion, for effective test process management. • Actively involved in various groups,
-      including WIT (Women in Technology), SURGE (Equal Opportunity for Underrepresented and
-      Minority Groups), and Engineering Book and Podcast Club.
-    </p>
-    <img
-      src="https://media.licdn.com/dms/image/D4E0BAQEIfFGCK1kEGg/company-logo_100_100/0/1664917910021/saicinc_logo?e=1703116800&v=beta&t=ea8jCvFnnS7W5rVjREGLoBEOyMcMcFcIndOXXa4LE_I" />
-    <h2>Senior Test Automation Engineer</h2>
-    <p>
-      Senior Test Automation EngineerSenior Test Automation Engineer SAIC · Full-timeSAIC ·
-      Full-time May 2020 - Nov 2021 · 1 yr 7 mosMay 2020 - Nov 2021 · 1 yr 7 mos Rockville,
-      Maryland, United StatesRockville, Maryland, United States Originally Halfaker and Associates,
-      LLC - Worked as QA Engineer on 15 different Health and Human Services (HHS) applications to
-      ensure they satisfy standards and compliances for different types of internal and external
-      users. - facilitated Agile transition for Agency for Healthcare Research and Quality (AHRQ) by
-      knowledge sharing and worked as Scrum Master role to ensuring the team lives agile values and
-      principles and follows the processes and practices that the team agreed they would use.
-      Preformed activities such as Sprint Planning, story pointing, and grooming. - Built automation
-      testing framework for end-to-end test using Selenium framework. - Identified test scenarios,
-      estimated test effort, and created test plan and maintained regression test suite. - Planed
-      and Organized major releases on the weekly bases. - Manual application deployment to Tomcat
-      servers using Putty Terminal.Originally Halfaker and Associates, LLC - Worked as QA Engineer
-      on 15 different Health and Human Services (HHS) applications to ensure they satisfy standards
-      and compliances for different types of internal and external users. - facilitated Agile
-      transition for Agency for Healthcare Research and Quality (AHRQ) by knowledge sharing and
-      worked as Scrum Master role to ensuring the team lives agile values and principles and follows
-      the processes and practices that the team agreed they would use. Preformed activities such as
-      Sprint Planning, story pointing, and grooming. - Built automation testing framework for
-      end-to-end test using Selenium framework. - Identified test scenarios, estimated test effort,
-      and created test plan and maintained regression test suite. - Planed and Organized major
-      releases on the weekly bases. - Manual application deployment to Tomcat servers using Putty
-      Terminal. Skills: Test Automation
-    </p>
-    https://github.com/shirinmjr/express-mongo-bank https://github.com/shirinmjr/js_tic_tac_toe
-    REACT Apps https://github.com/shirinmjr/appointment-react-app Third-Party APIs
-    https://github.com/shirinmjr/national-parks-adventure
-    https://github.com/shirinmjr/weather-widget-javascript
-  </main>
+
+
+    <div class="prose">
+      <div class="rounded-md bg-white shadow-xs">
+      <p>
+        <h2>About Me</h2>
+        Transitioning to software engineering with 5+ years of experience in enterprise grade
+        applications and platforms as SDET (Software Development Engineer in Test). Educational
+        background in Electrical Engineering and Cybersecurity and recently graduated from Software
+        Engineering Immersive boot camp. Strong communication, technical and interpersonal skills
+        with attention to details and passion for driving innovation and delivering exceptional
+        results.
+      </p>
+      <img src="./assets/joblogo/storyblocks_logo.jpeg" />
+      <h2>SOFTWARE DEVELOPMENT ENGINEER IN TEST, StoryBlocks, Arlington, VA | 11/2021 – 12/2022</h2>
+      <p>
+        <ul>
+          <li>Joined as the first SDET and created and implemented new test automation (Cypress) while
+            maintained project’s legacy test framework (Selenium). </li>
+        <li>
+          Refactored and migrated 20% of the
+          legacy tests from Selenium to the new framework Cypress.
+        </li>
+          </ul>
+        • Eliminated 100% of flaky tests by
+        implementing a test reliability process that increased test standards, reduced failures, and
+        expedited the deployment process. • Created GitHub actions to tag, monitor, and report
+        failing/flaky tests. • Worked independently to develop data/scenario strategies that
+        minimized testing time. • Actively participated in source code management discussions,
+        providing valuable input. • Participated in daily Scrum meetings, sprint planning, backlog
+        grooming, and code reviews. • Advocated for software quality best practices by giving talks
+        and creating collaborative groups. • Utilized various tools, including Slack bot, Honeycomb,
+        Jira, and Notion, for effective test process management. • Actively involved in various
+        groups, including WIT (Women in Technology), SURGE (Equal Opportunity for Underrepresented
+        and Minority Groups), and Engineering Book and Podcast Club.
+      </p>
+      <img
+        src="" />
+      <h2>Senior Test Automation Engineer</h2>
+      <p>
+        Senior Test Automation EngineerSenior Test Automation Engineer SAIC · Full-timeSAIC ·
+        Full-time May 2020 - Nov 2021 · 1 yr 7 mosMay 2020 - Nov 2021 · 1 yr 7 mos Rockville,
+        Maryland, United StatesRockville, Maryland, United States Originally Halfaker and
+        Associates, LLC - Worked as QA Engineer on 15 different Health and Human Services (HHS)
+        applications to ensure they satisfy standards and compliances for different types of
+        internal and external users. - facilitated Agile transition for Agency for Healthcare
+        Research and Quality (AHRQ) by knowledge sharing and worked as Scrum Master role to ensuring
+        the team lives agile values and principles and follows the processes and practices that the
+        team agreed they would use. Preformed activities such as Sprint Planning, story pointing,
+        and grooming. - Built automation testing framework for end-to-end test using Selenium
+        framework. - Identified test scenarios, estimated test effort, and created test plan and
+        maintained regression test suite. - Planed and Organized major releases on the weekly bases.
+        - Manual application deployment to Tomcat servers using Putty Terminal.Originally Halfaker
+        and Associates, LLC - Worked as QA Engineer on 15 different Health and Human Services (HHS)
+        applications to ensure they satisfy standards and compliances for different types of
+        internal and external users. - facilitated Agile transition for Agency for Healthcare
+        Research and Quality (AHRQ) by knowledge sharing and worked as Scrum Master role to ensuring
+        the team lives agile values and principles and follows the processes and practices that the
+        team agreed they would use. Preformed activities such as Sprint Planning, story pointing,
+        and grooming. - Built automation testing framework for end-to-end test using Selenium
+        framework. - Identified test scenarios, estimated test effort, and created test plan and
+        maintained regression test suite. - Planed and Organized major releases on the weekly bases.
+        - Manual application deployment to Tomcat servers using Putty Terminal. Skills: Test
+        Automation
+      </p>
+      https://github.com/shirinmjr/express-mongo-bank https://github.com/shirinmjr/js_tic_tac_toe
+      REACT Apps https://github.com/shirinmjr/appointment-react-app Third-Party APIs
+      https://github.com/shirinmjr/national-parks-adventure
+      https://github.com/shirinmjr/weather-widget-javascript
+    </div>
+
 </body>
